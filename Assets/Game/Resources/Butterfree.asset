@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c9b06edc19ec04a938b666ec3ddba4, type: 3}
+  m_Name: Butterfree
+  m_EditorClassIdentifier: 
+  pokeName: 
+  description: 
+  frontSprite: {fileID: -7209212159076336660, guid: f64ca9a0e50d2214aa7054deb58e16bc, type: 3}
+  backSprite: {fileID: 9112020770366926958, guid: f64ca9a0e50d2214aa7054deb58e16bc, type: 3}
+  type1: 12
+  type2: 10
+  maxHp: 60
+  attack: 45
+  defense: 50
+  spAttack: 90
+  spDefense: 80
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f457d15c1c9a94547a7bf2afdffbf90f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: a37db56fdabbcee459452130324963bf, type: 2}
+    level: 0
